@@ -5,6 +5,7 @@ import tilesJson from "./tiles.json";
 export const TileZod = z.strictObject({
   id: z.string().regex(/^[a-zA-Z0-9_\-]+$/g),
   name: z.string(),
+  baseAssetsUrl: z.string().url(),
   imageUrl: z.string().url(),
   markdownUrl: z.string().url(),
   projectUrl: z.string().url(),
@@ -27,7 +28,6 @@ export const useGlobalStore = defineStore("counter", {
     loadTiles() {
       const result = TilesZod.safeParse(tilesJson);
       if (!result.success) {
-        console.error(result.error);
         return;
       }
       this.tiles = result.data;

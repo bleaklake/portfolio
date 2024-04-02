@@ -51,6 +51,7 @@ export default defineComponent({
     object-fit: contain;
     width: 100%;
     height: 80%;
+    padding: 10px;
     background-color: var(--back-0);
   }
 
@@ -68,6 +69,7 @@ export default defineComponent({
     h3 {
       font-family: "Merriweather-Bold";
       margin: .2em 0px 0px 0px;
+      text-align: center;
     }
   }
 }

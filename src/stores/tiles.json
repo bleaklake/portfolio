@@ -1,16 +1,34 @@
 [
   {
-    "id": "pinia",
-    "name": "Pinia",
-    "imageUrl": "https://pinia.vuejs.org/logo.svg",
-    "markdownUrl": "https://raw.githubusercontent.com/vuejs/pinia/v2/README.md",
-    "projectUrl": "https://github.com/vuejs/pinia"
+    "id": "portfolio",
+    "name": "Mon portfolio",
+    "baseAssetsUrl": "https://raw.githubusercontent.com/bleaklake/portfolio/main",
+    "imageUrl": "https://raw.githubusercontent.com/bleaklake/portfolio/main/public/favicon.png",
+    "markdownUrl": "https://raw.githubusercontent.com/bleaklake/portfolio/main/README.md",
+    "projectUrl": "https://github.com/bleaklake/portfolio"
   },
   {
-    "id": "vite",
-    "name": "Vite",
-    "imageUrl": "https://vitejs.dev/logo.svg",
-    "markdownUrl": "https://raw.githubusercontent.com/vitejs/vite/main/README.md",
-    "projectUrl": "https://github.com/vitejs/vite"
+    "id": "tex-to-svg",
+    "name": "TeX to SVG",
+    "baseAssetsUrl": "https://raw.githubusercontent.com/bleaklake/TeX-to-SVG/main",
+    "imageUrl": "https://raw.githubusercontent.com/bleaklake/TeX-to-SVG/master/assets/TeX.svg",
+    "markdownUrl": "https://raw.githubusercontent.com/bleaklake/TeX-to-SVG/master/README.md",
+    "projectUrl": "https://github.com/bleaklake/TeX-to-SVG"
+  },
+  {
+    "id": "markdown_live_editor",
+    "name": "Flutter Markdown Live Editor",
+    "baseAssetsUrl": "https://raw.githubusercontent.com/bleaklake/flutter_markdown_live_editor/main",
+    "imageUrl": "https://raw.githubusercontent.com/bleaklake/flutter_markdown_live_editor/main/assets/flutter.png",
+    "markdownUrl": "https://raw.githubusercontent.com/bleaklake/flutter_markdown_live_editor/main/README.md",
+    "projectUrl": "https://github.com/bleaklake/flutter_markdown_live_editor"
+  },
+  {
+    "id": "markdown-it-base-url",
+    "name": "Markdown it Base URL",
+    "baseAssetsUrl": "https://raw.githubusercontent.com/bleaklake/markdown-it-base-url/main",
+    "imageUrl": "https://raw.githubusercontent.com/bleaklake/markdown-it-base-url/main/assets/choose-markdown.jpg",
+    "markdownUrl": "https://raw.githubusercontent.com/bleaklake/markdown-it-base-url/main/README.md",
+    "projectUrl": "https://github.com/bleaklake/markdown-it-base-url"
   }
 ]

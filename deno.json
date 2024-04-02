@@ -7,7 +7,11 @@
     "sass": "npm:sass@^1.71.0",
     "zod": "npm:zod@^3.22.4",
     "vue-router": "npm:vue-router@^4.3.0",
-    "vue-markdown-render": "npm:vue-markdown-render@^2.1.1"
+    "vue-markdown-render": "npm:vue-markdown-render@^2.1.1",
+    "xml-js": "npm:xml-js@^1.6.11",
+    "markdown-it": "npm:markdown-it@^14.1.0",
+    "@types/markdown-it": "npm:@types/markdown-it@^13.0.6",
+    "xml2js": "npm:xml2js@^0.6.1"
   },
   "tasks": {
     "download": "deno run -A --node-modules-dir ./tools/download-npm-dependencies.ts",
@@ -16,5 +20,8 @@
     "preview": "deno task download && deno run -A --node-modules-dir npm:vite preview",
     "serve": "deno task download && deno run --allow-net --allow-read https://deno.land/std@0.157.0/http/file_server.ts dist/"
   },
-  "exclude": ["./dist", "./node_modules"]
+  "exclude": [
+    "./dist",
+    "./node_modules"
+  ]
 }

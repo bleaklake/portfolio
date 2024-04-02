@@ -44,7 +44,7 @@ export default defineComponent({
 $LIMIT : 800px;
 @media (max-width: $LIMIT) {
   header {
-    padding: 1em 0em;
+    padding: 1em 1em;
     flex-direction: column;
     align-items: center;
 
