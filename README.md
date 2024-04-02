@@ -16,6 +16,10 @@ Voici mon portfolio où je liste tous mes projets open-source.
 - [Vue Router](https://router.vuejs.org/)
 - [Sass](https://sass-lang.com/)
 
+## Technologies utilisées pour le déploiement de ce site internet
+
+- [Vercel](https://vercel.com/)
+
 ## Références
 
 <a target="_blank" href="https://icons8.com/icon/17333/diamond">Diamant</a> icône par <a target="_blank" href="https://icons8.com">Icons8</a>
