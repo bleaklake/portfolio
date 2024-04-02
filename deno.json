@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "pinia": "npm:pinia@^2.1.7",
+    "vue": "npm:vue@^3.3.13",
+    "vite": "npm:vite@^5.0.10",
+    "@vitejs/plugin-vue": "npm:@vitejs/plugin-vue@^4.5.2",
+    "sass": "npm:sass@^1.71.0",
+    "zod": "npm:zod@^3.22.4",
+    "vue-router": "npm:vue-router@^4.3.0",
+    "vue-markdown-render": "npm:vue-markdown-render@^2.1.1"
+  },
+  "tasks": {
+    "download": "deno run -A --node-modules-dir ./tools/download-npm-dependencies.ts",
+    "dev": "deno task download && deno run -A --node-modules-dir npm:vite",
+    "build": "deno task download && deno run -A --node-modules-dir npm:vite build",
+    "preview": "deno task download && deno run -A --node-modules-dir npm:vite preview",
+    "serve": "deno task download && deno run --allow-net --allow-read https://deno.land/std@0.157.0/http/file_server.ts dist/"
+  },
+  "exclude": ["./dist", "./node_modules"]
+}

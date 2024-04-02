@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Merriweather-Bold";
+  src: url("/fonts/Merriweather/Merriweather-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather-Black";
+  src: url("/fonts/Merriweather/Merriweather-Black.ttf");
+}
+
+:root {
+  --front-0: #000000;
+  --back-0: #f9e9ec;
+
+  --third: #153462;
+  --fourth: #f1afb6;
+}
+
+.dark-mode {
+  --front-0: #f6f6f6;
+  --back-0: #1d2f6f;
+}
+
+html,
+body,
+#app {
+  margin: 0px;
+  height: 100%;
+}
+
+#app {
+  // min-width: fit-content;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("/img/endless-clouds.svg") repeat;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: #1d2f6f;
+  overflow: hidden;
+  // background-color: #f9e9ec;
+
+  .nope {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}

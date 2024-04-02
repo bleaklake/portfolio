@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pinia",
+    "name": "Pinia",
+    "imageUrl": "https://pinia.vuejs.org/logo.svg",
+    "markdownUrl": "https://raw.githubusercontent.com/vuejs/pinia/v2/README.md",
+    "projectUrl": "https://github.com/vuejs/pinia"
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "imageUrl": "https://vitejs.dev/logo.svg",
+    "markdownUrl": "https://raw.githubusercontent.com/vitejs/vite/main/README.md",
+    "projectUrl": "https://github.com/vitejs/vite"
+  }
+]

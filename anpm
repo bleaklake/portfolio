@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+deno run -A --node-modules-dir ./tools/add-npm-dependency.ts $1

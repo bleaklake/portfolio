@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/([^.]*)",
+      "destination": "/dist/index.html"
+    },
+    {
+      "source": "/:path(.*(?<!\\.html))",
+      "destination": "/dist/:path"
+    }
+  ]
+}
