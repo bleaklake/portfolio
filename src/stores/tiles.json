@@ -30,5 +30,21 @@
     "imageUrl": "https://raw.githubusercontent.com/bleaklake/markdown-it-base-url/main/assets/choose-markdown.jpg",
     "markdownUrl": "https://raw.githubusercontent.com/bleaklake/markdown-it-base-url/main/README.md",
     "projectUrl": "https://github.com/bleaklake/markdown-it-base-url"
+  },
+  {
+    "id": "spawn_interval",
+    "name": "Spawn Interval",
+    "baseAssetsUrl": "https://raw.githubusercontent.com/bleaklake/rust_spawn_interval/main",
+    "imageUrl": "https://raw.githubusercontent.com/rust-lang/crates.io/refs/heads/main/public/assets/cargo.png",
+    "markdownUrl": "https://raw.githubusercontent.com/bleaklake/rust_spawn_interval/refs/heads/main/README.md",
+    "projectUrl": "https://github.com/bleaklake/rust_spawn_interval"
+  },
+  {
+    "id": "spawn_timeout",
+    "name": "Spawn Timeout",
+    "baseAssetsUrl": "https://raw.githubusercontent.com/bleaklake/rust_spawn_timeout/main",
+    "imageUrl": "https://raw.githubusercontent.com/rust-lang/crates.io/refs/heads/main/public/assets/cargo.png",
+    "markdownUrl": "https://raw.githubusercontent.com/bleaklake/rust_spawn_timeout/refs/heads/main/README.md",
+    "projectUrl": "https://github.com/bleaklake/rust_spawn_timeout"
   }
 ]
